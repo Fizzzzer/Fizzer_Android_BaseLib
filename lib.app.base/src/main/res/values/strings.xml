@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">lib.app.base</string>
+
+    <string name="title_back">返回</string>
+
+    <string name="tip_cancel">取消</string>
+    <string name="tip_confirm">确认</string>
+</resources>

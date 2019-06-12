@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="base_bg">#F5F5F5</color>
+    <color name="main_color">#FF4D46</color>
+
+    <color name="color_FFFFFF">#FFFFFF</color>
+    <color name="color_EEEEEE">#EEEEEE</color>
+    <color name="color_FF4D46">#FF4D46</color>
+
+    <color name="color_333333">#333333</color>
+    <color name="color_999999">#999999</color>
+</resources>

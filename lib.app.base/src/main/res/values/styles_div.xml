@@ -1,0 +1,40 @@
+<resources>
+    <style name="NormalDiv_10_div">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/value_10_dp</item>
+        <item name="android:background">@color/base_bg</item>
+    </style>
+
+
+    <style name="NormalDiv_1_div">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/value_0.5_dp</item>
+        <item name="android:background">@color/color_EEEEEE</item>
+    </style>
+
+    <style name="NormalDiv_1_div_white">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/value_0.5_dp</item>
+        <item name="android:background">@color/color_FFFFFF</item>
+    </style>
+
+    <style name="NormalDiv_20_div">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/value_20_dp</item>
+        <item name="android:background">@color/color_EEEEEE</item>
+    </style>
+
+    <style name="NormalDiv_1_vertical_div">
+        <item name="android:layout_width">@dimen/value_0.5_dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/color_EEEEEE</item>
+    </style>
+
+    <style name="NormalDiv_1_margin_10_div">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/value_0.5_dp</item>
+        <item name="android:background">@color/color_EEEEEE</item>
+        <item name="android:layout_margin">@dimen/value_10_dp</item>
+    </style>
+
+</resources>

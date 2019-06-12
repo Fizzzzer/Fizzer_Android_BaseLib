@@ -1,0 +1,34 @@
+ext {
+    VCode = [
+            applicationId    : 'com.fizzer.doraemon.android',
+
+            compileSdkVersion: 27,
+            minSdkVersion    : 22,
+            targetSdkVersion : 27,
+            versionCode      : 1,
+            versionName      : "1.0",
+
+            VAppcompatv7     : "27.1.1",
+            VConstraint      : "1.1.3",
+            Vtestrunner      : "1.0.2",
+            Vespresso        : "3.0.2",
+            VRecyclerView    : "27.1.1",
+            VGlide           : "4.9.0",
+            Vbutterknife     : "8.5.1",
+            VEventbus        : "3.1.1",
+    ]
+
+
+    dependencies = [
+            appcompatv7        : "com.android.support:appcompat-v7:${VCode["VAppcompatv7"]}",
+            constraintlayout   : "com.android.support.constraint:constraint-layout:${VCode["VConstraint"]}",
+            testrunner         : "com.android.support.test:runner:${VCode["Vtestrunner"]}",
+            espresso           : "com.android.support.test.espresso:espresso-core:${VCode["Vespresso"]}",
+            butterknife        : "com.jakewharton:butterknife:${VCode["Vbutterknife"]}",
+            butterknifecompiler: "com.jakewharton:butterknife-compiler:${VCode["Vbutterknife"]}",
+            eventbus           : "org.greenrobot:eventbus:${VCode["VEventbus"]}",
+            recyclerView       : "com.android.support:recyclerview-v7:${VCode["VRecyclerView"]}",
+            Glide              : "com.github.bumptech.glide:glide:${VCode["VGlide"]}",
+            GlideCompiler      : "com.github.bumptech.glide:compiler:${VCode["VGlide"]}",
+    ]
+}

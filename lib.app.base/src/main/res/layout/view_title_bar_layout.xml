@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/value_45_dp"
+        android:background="@color/color_FF4D46">
+
+        <TextView
+            android:id="@+id/titleBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_back_white"
+            android:drawablePadding="@dimen/value_5_dp"
+            android:gravity="center_vertical"
+            android:paddingEnd="@dimen/value_15_dp"
+            android:paddingStart="@dimen/value_10_dp"
+            android:text="@string/title_back"
+            android:textColor="@color/color_FFFFFF"
+            android:textSize="@dimen/value_16_sp"/>
+
+        <TextView
+            android:id="@+id/titlePage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:text="标题"
+            android:textColor="@color/color_FFFFFF"
+            android:textSize="@dimen/value_18_sp"/>
+
+        <TextView
+            android:id="@+id/titleRight"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:paddingEnd="@dimen/value_15_dp"
+            android:paddingStart="@dimen/value_15_dp"
+            android:visibility="gone"
+            android:textColor="@color/color_FFFFFF"
+            android:textSize="@dimen/value_16_sp"/>
+    </RelativeLayout>
+</LinearLayout>
