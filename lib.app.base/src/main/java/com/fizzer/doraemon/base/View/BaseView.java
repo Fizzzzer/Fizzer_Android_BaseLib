@@ -64,6 +64,11 @@ public abstract class BaseView extends LinearLayout implements IView {
     }
 
     @Override
+    public void showError() {
+
+    }
+
+    @Override
     public void BindUI(View rootView) {
         ButterKnife.bind(this,this);
     }

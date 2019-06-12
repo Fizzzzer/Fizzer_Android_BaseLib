@@ -6,8 +6,10 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 
 /**
- * Created by MirkoWu on 2017/4/17 0017.
- */
+ * Create by: Fizzer on 2019/6/12
+ * Email: doraemonmqq@sina.com
+ * Function:
+*/
 
 public class NoScrollViewPager extends ViewPager {
     private boolean noScroll = true; //true 代表不能滑动 //false 代表能滑动

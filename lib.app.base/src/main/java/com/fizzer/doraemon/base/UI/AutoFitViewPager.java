@@ -8,10 +8,10 @@ import android.view.MotionEvent;
 import android.view.View;
 
 /**
- * Create by: Fizzer on 2019/6/11
- * Email: doraemonmqq@sina.com
- * Function: 自动适应子View高度的Viewpager
- */
+ * Create by: Fizzer on 2019/6/12
+ * Email: Fizzer503@gmail.com
+ * Description: 自动适应子View高度的Viewpager
+*/
 
 public class AutoFitViewPager extends ViewPager {
     public static final String TAG = AutoFitViewPager.class.getSimpleName();

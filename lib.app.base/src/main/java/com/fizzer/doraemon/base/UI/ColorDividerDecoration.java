@@ -9,8 +9,10 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 /**
- * Created by Lightwave on 2016/7/5.
- */
+ * Create by: Fizzer on 2019/6/12
+ * Email: Fizzer503@gmail.com
+ * Description:
+*/
 public class ColorDividerDecoration extends RecyclerView.ItemDecoration {
 
     public static final int HORIZONTAL = OrientationHelper.HORIZONTAL;

@@ -12,4 +12,6 @@ public interface IView {
     void BindUI(View rootView);
 
     int getLayoutResId();
+
+    void showError();
 }

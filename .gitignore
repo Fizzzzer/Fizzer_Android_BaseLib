@@ -61,4 +61,3 @@ app.iml
 .idea/
 app/libs/
 lib.app.base/libs/
-lib.app.base/src/main/java/com/fizzer/doraemon/base/Widget/LoadingView/

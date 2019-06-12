@@ -8,10 +8,15 @@ import android.widget.RelativeLayout;
 
 import com.fizzer.doraemon.base.Event.EventProvider;
 import com.fizzer.doraemon.base.R;
+import com.fizzer.doraemon.base.R2;
+import com.fizzer.doraemon.base.Utils.UiUtils;
 import com.fizzer.doraemon.base.View.I.IViewEvent;
 import com.fizzer.doraemon.base.View.I.IView;
+import com.fizzer.doraemon.base.View.I.IViewType;
+import com.fizzer.doraemon.base.Widget.LoadingView.LoadingView;
 import com.fizzer.doraemon.base.Widget.TitleBarView.TitleBarView;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
@@ -20,11 +25,17 @@ import butterknife.ButterKnife;
  * Function:
  */
 
-public abstract class BaseActivity extends Activity implements IView,IViewEvent {
+public abstract class BaseActivity extends Activity implements IView, IViewEvent {
 
-    private RelativeLayout mContentView;
-    public TitleBarView mTitleBarView;
 
+    @BindView(R2.id.titleBar)
+    TitleBarView mTitleBarView;
+
+    @BindView(R2.id.contentView)
+    RelativeLayout mContentView;
+
+    @BindView(R2.id.LoadingView)
+    LoadingView mLoadingView;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -57,6 +68,11 @@ public abstract class BaseActivity extends Activity implements IView,IViewEvent 
     }
 
     @Override
+    public void showError() {
+        setViewType(IViewType.ERROR);
+    }
+
+    @Override
     public boolean useEvent() {
         return false;
     }
@@ -64,5 +80,18 @@ public abstract class BaseActivity extends Activity implements IView,IViewEvent 
     @Override
     public void BindUI(View rootView) {
         ButterKnife.bind(this);
+    }
+
+    public void showLoading() {
+        setViewType(IViewType.LOADING);
+    }
+
+    public View getLoadView() {
+        return mLoadingView;
+    }
+
+    private void setViewType(int type) {
+        UiUtils.setViewVisible(mContentView, IViewType.NORMAL == type ? View.VISIBLE : View.GONE);
+        UiUtils.setViewVisible(mLoadingView, IViewType.LOADING == type ? View.VISIBLE : View.GONE);
     }
 }

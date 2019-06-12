@@ -10,10 +10,10 @@ import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.View;
 
 /**
- * @author by DELL
- * @date on 2017/11/5
- * @describe 只适用垂直方向的grid
- */
+ * Create by: Fizzer on 2019/6/12
+ * Email: doraemonmqq@sina.com
+ * Function: 只适用垂直方向的grid
+*/
 
 public class GridDividerDecoration extends RecyclerView.ItemDecoration {
     private Paint mPaint;

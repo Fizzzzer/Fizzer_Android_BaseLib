@@ -15,12 +15,11 @@ import android.view.animation.Interpolator;
 import android.widget.Scroller;
 
 /**
- * 左滑删除的控件
+ * Create by: Fizzer on 2019/6/12
+ * Email: doraemonmqq@sina.com
+ * Function: 左滑删除的控件
  * github:https://github.com/fornana/swipeitemlayout
- * Author： liyi
- * Date：    2017/2/16.
  */
-//SwipeItemLayout1与SwipeItemLayout2供参考，SwipeItemLayout为正式版本
 public class SwipeItemLayout extends ViewGroup {
     enum Mode {
         RESET, DRAG, FLING, TAP
