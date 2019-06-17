@@ -56,6 +56,11 @@ public abstract class BaseBottomDialog implements IView, IDialogView {
     }
 
     @Override
+    public void showError() {
+
+    }
+
+    @Override
     public void dismiss() {
         if (mDialog.isShowing()) {
             mDialog.dismiss();

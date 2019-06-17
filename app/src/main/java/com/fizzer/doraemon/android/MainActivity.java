@@ -5,12 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.fizzer.doraemon.base.Event.EventModel;
-import com.fizzer.doraemon.base.View.BaseActivity;
 import com.fizzer.doraemon.android.TestPage.TestPage;
-
-import org.greenrobot.eventbus.Subscribe;
-import org.greenrobot.eventbus.ThreadMode;
+import com.fizzer.doraemon.base.View.BaseActivity;
 
 import butterknife.BindView;
 import butterknife.OnClick;

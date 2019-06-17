@@ -5,6 +5,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.fizzer.doraemon.android.R;
+import com.fizzer.doraemon.base.Http.HttpUtils;
 import com.fizzer.doraemon.base.View.BaseActivity;
 import com.fizzer.doraemon.base.View.Dialog.DialogUtils;
 
@@ -28,6 +29,7 @@ public class TestPage extends BaseActivity {
                 DialogUtils.showBottomDialog(this);
                 break;
             case R.id.Test2:
+                HttpUtils.getList();
                 break;
         }
     }

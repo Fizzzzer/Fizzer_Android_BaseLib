@@ -50,5 +50,10 @@ dependencies {
     implementation rootProject.ext.dependencies.recyclerView
     implementation rootProject.ext.dependencies.Glide
     annotationProcessor rootProject.ext.dependencies.GlideCompiler
+    implementation rootProject.ext.dependencies.Retrofit
+    implementation rootProject.ext.dependencies.Gson
+    compile rootProject.ext.dependencies.Loginterceptor
+    compile rootProject.ext.dependencies.Logger
+
 }
 
