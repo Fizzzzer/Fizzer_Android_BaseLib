@@ -1,14 +1,26 @@
 package com.fizzer.doraemon.base.Http.Data;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.io.Serializable;
 
 /**
- * Created by Doraemon on 2019/6/14.
+ * Create by Fizzer on 2019/6/17
+ * Email: Fizzer503@gmail.com
+ * Description:数据解析基类
  */
 
-public class RemoteResponse {
-    public String errorCode;
+public class RemoteResponse implements Serializable, IModel {
+    private static final long serialVersionUID = 1L;
+
+    public int errorCode;
     public String errorMsg;
-    public List<DataInfo> data = new ArrayList();
+
+    @Override
+    public int getCode() {
+        return errorCode;
+    }
+
+    @Override
+    public String getMsg() {
+        return errorMsg;
+    }
 }

@@ -40,7 +40,7 @@ public class LogInterceptor implements Interceptor {
             LogRoot.e(TAG, "url : " + url);
             LogRoot.e(TAG, "Method : " + request.method());
             if (headers != null && headers.size() > 0) {
-                LogRoot.e(TAG, "HEADS : " + headers.toString());
+                LogRoot.e(TAG, "Heads : " + headers.toString());
             }
 
             RequestBody requestBody = request.body();
