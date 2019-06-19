@@ -20,6 +20,9 @@ ext {
             VGson            : "2.0.2",
             VLoginterceptor  : "3.8.1",
             VLogger          : "2.2.0",
+            VRxJava          : "2.2.9",
+            VRxAndroid       : "2.1.1",
+            VRxJavaAdapter   : "2.3.0",
     ]
 
 
@@ -38,5 +41,8 @@ ext {
             Gson               : "com.squareup.retrofit2:converter-gson:${VCode["VGson"]}",
             Loginterceptor     : "com.squareup.okhttp3:logging-interceptor:${VCode["VLoginterceptor"]}",
             Logger             : "com.orhanobut:logger:${VCode["VLogger"]}",
+            RxJava             : "io.reactivex.rxjava2:rxjava:${VCode["VRxJava"]}",
+            RxAndroid          : "io.reactivex.rxjava2:rxandroid:${VCode["VRxAndroid"]}",
+            RxJavaAdapter      : "com.squareup.retrofit2:adapter-rxjava2:${VCode["VRxJavaAdapter"]}",
     ]
 }

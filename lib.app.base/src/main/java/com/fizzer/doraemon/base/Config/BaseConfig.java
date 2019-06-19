@@ -11,6 +11,6 @@ public class BaseConfig {
     /**
      * log
      */
-    public static final boolean LOG = false;    //日志开关
+    public static final boolean LOG = true;    //日志开关
     public static final String LOG_TAG = "Fizzer";
 }

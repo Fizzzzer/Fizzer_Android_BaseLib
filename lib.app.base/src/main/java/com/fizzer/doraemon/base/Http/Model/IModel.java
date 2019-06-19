@@ -1,4 +1,4 @@
-package com.fizzer.doraemon.base.Http.Data;
+package com.fizzer.doraemon.base.Http.Model;
 
 /**
  * Create by Fizzer on 2019/6/17
@@ -10,4 +10,6 @@ public interface IModel {
     int getCode();
 
     String getMsg();
+
+    boolean isNull();
 }

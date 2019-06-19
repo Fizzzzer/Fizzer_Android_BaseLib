@@ -12,7 +12,7 @@ import okhttp3.Response;
  * Created by Doraemon on 2019/6/14.
  */
 
-public class InterceptorHeader implements Interceptor{
+public class HeaderInterceptor implements Interceptor{
 
 
     @Override

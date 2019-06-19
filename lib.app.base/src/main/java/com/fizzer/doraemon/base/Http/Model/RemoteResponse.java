@@ -1,4 +1,4 @@
-package com.fizzer.doraemon.base.Http.Data;
+package com.fizzer.doraemon.base.Http.Model;
 
 import java.io.Serializable;
 
@@ -22,5 +22,10 @@ public class RemoteResponse implements Serializable, IModel {
     @Override
     public String getMsg() {
         return errorMsg;
+    }
+
+    @Override
+    public boolean isNull() {
+        return false;
     }
 }

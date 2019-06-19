@@ -47,13 +47,15 @@ dependencies {
     compile rootProject.ext.dependencies.eventbus
     compile rootProject.ext.dependencies.butterknife
     annotationProcessor rootProject.ext.dependencies.butterknifecompiler
-    implementation rootProject.ext.dependencies.recyclerView
-    implementation rootProject.ext.dependencies.Glide
+    compile rootProject.ext.dependencies.recyclerView
+    compile rootProject.ext.dependencies.Glide
     annotationProcessor rootProject.ext.dependencies.GlideCompiler
-    implementation rootProject.ext.dependencies.Retrofit
-    implementation rootProject.ext.dependencies.Gson
+    compile rootProject.ext.dependencies.Retrofit
+    compile rootProject.ext.dependencies.Gson
     compile rootProject.ext.dependencies.Loginterceptor
     compile rootProject.ext.dependencies.Logger
-
+    compile rootProject.ext.dependencies.RxJava
+    compile rootProject.ext.dependencies.RxAndroid
+    compile rootProject.ext.dependencies.RxJavaAdapter
 }
 
