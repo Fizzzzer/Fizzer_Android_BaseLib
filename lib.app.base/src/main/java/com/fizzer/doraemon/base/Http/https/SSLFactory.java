@@ -15,6 +15,7 @@ import javax.net.ssl.TrustManagerFactory;
  * Create by Fizzer on 2019/6/19
  * Email: Fizzer503@gmail.com
  * Description:证书验证
+ * certificates 为证书的路径
  */
 
 public class SSLFactory {

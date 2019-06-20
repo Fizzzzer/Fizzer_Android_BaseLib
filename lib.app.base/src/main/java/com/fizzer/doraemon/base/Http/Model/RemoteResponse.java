@@ -3,14 +3,13 @@ package com.fizzer.doraemon.base.Http.Model;
 import java.io.Serializable;
 
 /**
- * Create by Fizzer on 2019/6/17
+ * Create by Fizzer on 2019/6/20
  * Email: Fizzer503@gmail.com
- * Description:数据解析基类
- */
+ * Description:
+*/
 
-public class RemoteResponse implements Serializable, IModel {
+public class RemoteResponse implements IModel,Serializable{
     private static final long serialVersionUID = 1L;
-
     public int errorCode;
     public String errorMsg;
 
